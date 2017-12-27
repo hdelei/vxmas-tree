@@ -47,7 +47,7 @@ const char MAIN_page[] PROGMEM = R"=====(
         success: function(response){
           var tree = JSON.parse(response); 
           console.log(tree);
-          if(tree.status.pin_0 == "1"){
+          if(tree.status.pin_0 == "on"){
             if($("#star").hasClass("off")){
               setOn();
             }            
