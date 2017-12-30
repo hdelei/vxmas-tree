@@ -38,7 +38,7 @@ int interval = 3600000;//60 minutes
 ESP8266WebServer server(80);
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   delay(10);
 
   // prepare GPIO's
